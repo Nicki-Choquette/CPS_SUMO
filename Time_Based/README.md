@@ -1,6 +1,9 @@
 All time-based TLS currently assume cars are going 30 mph (Note: this needs to be fixed based on actual speed limits in simulation)
 
+# For 4-ways (crossroads and X-intersection)
+
 Total cycle time = 4 * speed limit in mph
+
 Yellow light phase = 1 second for every 10 mph of the speed limit
 
 Vehicle priorities: allows 10 seconds before yellow light where pedestrians are not allowed to walk. 
