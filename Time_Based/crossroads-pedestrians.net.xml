@@ -170,10 +170,10 @@
     </edge>
 
     <tlLogic id="J1" type="static" programID="0" offset="0">
-        <phase duration="10" state="rrrrrrrrrrrrrGrG" name="N-S peds no cars"/>
+        <phase duration="10" state="rGrrrrrGrrrrrGrG" name="N-S peds no car turns"/>
         <phase duration="47"  state="gGgrrrgGgrrrrGrG" name="N-S g light"/>
         <phase duration="3"  state="yyyrrryyyrrrrrrr" name="N-S y light"/>
-        <phase duration="10" state="rrrrrrrrrrrrGrGr" name="E-W peds no cars"/>
+        <phase duration="10" state="rrrrGrrrrrGrGrGr" name="E-W peds no car turns"/>
         <phase duration="47"  state="rrrgGgrrrgGgGrGr" name="E-W g light"/>
         <phase duration="3"  state="rrryyyrrryyyrrrr" name="E-W y light"/>
     </tlLogic>
