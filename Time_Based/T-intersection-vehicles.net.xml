@@ -123,12 +123,12 @@
     </edge>
 
     <tlLogic id="J1" type="static" programID="0" offset="0">
-        <phase duration="37" state="GgrrgGrGr"/>
-        <phase duration="5"  state="GgrrgGrrr"/>
-        <phase duration="3"  state="yyrryyrrr"/>
-        <phase duration="37" state="rrggrrGrG"/>
-        <phase duration="5"  state="rrggrrrrr"/>
-        <phase duration="3"  state="rryyrrrrr"/>
+        <phase duration="47" state="GgrrgGrGr" name="E-W g light"/>
+        <phase duration="10"  state="GgrrgGrrr" name="E-W g light no peds"/>
+        <phase duration="3"  state="yyrryyrrr" name="E-W y light"/>
+        <phase duration="37" state="rrggrrGrG" name="S g light"/>
+        <phase duration="20"  state="rrggrrrrr" name="S g light no peds"/>
+        <phase duration="3"  state="rryyrrrrr" name="S y light"/>
     </tlLogic>
 
     <junction id="J0" type="dead_end" x="-100.00" y="0.00" incLanes="-E0_0 -E0_1" intLanes="" shape="-100.00,0.00 -100.00,5.20 -100.00,0.00"/>
