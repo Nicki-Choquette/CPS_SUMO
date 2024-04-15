@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-09 09:00:40 by Eclipse SUMO sumo Version 1.19.0
+<!-- generated on 2024-04-09 08:48:49 by Eclipse SUMO sumo Version 1.19.0
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="5-way.net.xml"/>
-        <route-files value="5-way.rou.xml"/>
+        <net-file value="Y-intersection-pedestrian.net.xml"/>
+        <route-files value="Y-intersection.rou.xml"/>
     </input>
 
 </configuration>
