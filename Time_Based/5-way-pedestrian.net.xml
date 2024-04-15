@@ -233,19 +233,26 @@
         <lane id="E5_0" index="0" allow="pedestrian" speed="13.89" length="92.80" width="2.00" shape="4.20,-100.00 4.20,-7.20"/>
         <lane id="E5_1" index="1" disallow="pedestrian" speed="13.89" length="92.80" shape="1.60,-100.00 1.60,-7.20"/>
     </edge>
-
+    
     <tlLogic id="J4" type="static" programID="0" offset="0">
-        <phase duration="18" state="rrrrGGGgrrrrgGggrrrrrrGrr"/>
-        <phase duration="5"  state="rrrrGGGgrrrrgGggrrrrrrrrr"/>
-        <phase duration="3"  state="rrrryyyyrrrryyyyrrrrrrrrr"/>
-        <phase duration="19" state="rrrrrrrrGGGgrrrrgGggrrrGr"/>
-        <phase duration="5"  state="rrrrrrrrGGGgrrrrgGggrrrrr"/>
-        <phase duration="3"  state="rrrrrrrryyyyrrrryyyyrrrrr"/>
-        <phase duration="19" state="gGGgrrrrrrrrrrrrrrrrrGrrG"/>
-        <phase duration="5"  state="gGGgrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrrrGGGGG"/>
-        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="10" state="rrrrrrGrrrrrrGrrrrrrGrGrG" name="EW peds no car turns"/>
+        <phase duration="27" state="rrrrggGgrrrrgGggrrrrGrGrG" name="EW g light"/>
+        <phase duration="3"  state="rrrryyyyrrrryyyyrrrrrrrrr" name="EW y light"/>
+        <phase duration="10" state="rrrrrrrrrrGrrrrrrGrrGGrGr" name="NW-S peds no car turns"/>
+        <phase duration="27" state="rrrrrrrrggGgrrrrgGggGGrGr" name="NW-S g light"/>
+        <phase duration="3"  state="rrrrrrrryyyyrrrryyyyrrrrr" name="NW-S y light"/>
+        <phase duration="10" state="rrrrrrrrrrrrrrrrrrrrrGGGG" name="peds"/>
+        <phase duration="27" state="ggggrrrrrrrrrrrrrrrrrGGGG" name="NE g light"/> 
+        <phase duration="3"  state="yyyyrrrrrrrrrrrrrrrrrrrrr" name="NE y light"/>
+    </tlLogic>
+
+    <tlLogic id="J1" type="static" programID="0" offset="0">
+        <phase duration="10" state="rGrrrrrGrrrrrGrG" name="N-S peds no car turns"/>
+        <phase duration="47"  state="gGgrrrgGgrrrrGrG" name="N-S g light"/>
+        <phase duration="3"  state="yyyrrryyyrrrrrrr" name="N-S y light"/>
+        <phase duration="10" state="rrrrGrrrrrGrGrGr" name="E-W peds no car turns"/>
+        <phase duration="47"  state="rrrgGgrrrgGgGrGr" name="E-W g light"/>
+        <phase duration="3"  state="rrryyyrrryyyrrrr" name="E-W y light"/>
     </tlLogic>
 
     <junction id="J3" type="dead_end" x="-75.00" y="75.00" incLanes="-E1_0 -E1_1" intLanes="" shape="-75.00,75.00 -71.32,78.68 -75.00,75.00"/>

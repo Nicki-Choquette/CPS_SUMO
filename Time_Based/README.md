@@ -21,3 +21,11 @@ Vehicle priorities: allows ~10 seconds before yellow light where pedestrians are
 Pedestrian priorities: allows for ~10 second leading pedestrian interval (LPI) that gives pedestrians the opportunity to enter the crosswalk at an intersection before vehicles are given a green indication (currently allows cars to go straight, as it does not interfere with pedestrian path)
 
 # 5-way
+
+Total cycle time = 120 seconds.
+
+Yellow light phase = 3 seconds.
+
+Vehicle priorities: allows 10 seconds before yellow light for cars only. 
+
+Pedestrian priorities: allows for 10 second LPI.
