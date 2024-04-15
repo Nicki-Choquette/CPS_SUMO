@@ -122,15 +122,15 @@
     </edge>
 
     <tlLogic id="J1" type="static" programID="0" offset="0">
-        <phase duration="22" state="rrggrrGrG"/>
-        <phase duration="5"  state="rrggrrrrr"/>
-        <phase duration="3"  state="rryyrrrrr"/>
-        <phase duration="22" state="ggrrrrrGG"/>
-        <phase duration="5"  state="ggrrrrrrr"/>
-        <phase duration="3"  state="yyrrrrrrr"/>
-        <phase duration="22" state="rrrrggGGr"/>
-        <phase duration="5"  state="rrrrggrrr"/>
-        <phase duration="3"  state="rrrryyrrr"/>
+        <phase duration="27" state="rrggrrGrG" name="S g light"/>
+        <phase duration="10"  state="rrggrrrrr" name="S g light no peds"/>
+        <phase duration="3"  state="rryyrrrrr" name="S y light"/>
+        <phase duration="27" state="ggrrrrrGG" name="NE g light"/>
+        <phase duration="10"  state="ggrrrrrrr" name="NE g light no peds"/>
+        <phase duration="3"  state="yyrrrrrrr" name="NE y light"/>
+        <phase duration="27" state="rrrrggGGr" name="NW g light"/>
+        <phase duration="10"  state="rrrrggrrr" name="NW g light no peds"/>
+        <phase duration="3"  state="rrrryyrrr" name="NW y light"/>
     </tlLogic>
 
     <junction id="J0" type="dead_end" x="-45.00" y="45.00" incLanes="-E0_0 -E0_1" intLanes="" shape="-45.00,45.00 -41.32,48.68 -45.00,45.00"/>
