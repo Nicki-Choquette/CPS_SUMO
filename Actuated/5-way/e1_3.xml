@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-20 00:38:09 by Eclipse SUMO GUI Version 1.19.0
+<!-- generated on 2024-04-20 00:51:28 by Eclipse SUMO GUI Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="S:\Documents\GitHub\CPS_SUMO\Actuated\X-Intersection\X-intersection.net.xml"/>
-        <route-files value="S:\Documents\GitHub\CPS_SUMO\Actuated\X-Intersection\X-intersection_demands.rou.xml"/>
-        <additional-files value="S:\Documents\GitHub\CPS_SUMO\Actuated\X-Intersection\../5-way/crossroads.add.xml"/>
+        <net-file value="S:\Documents\GitHub\CPS_SUMO\Actuated\5-way\5-way.net.xml"/>
+        <route-files value="S:\Documents\GitHub\CPS_SUMO\Actuated\5-way\5-way.rou.xml"/>
+        <additional-files value="S:\Documents\GitHub\CPS_SUMO\Actuated\5-way\5-way.add.xml"/>
     </input>
 
 </configuration>
 -->
 
 <detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="r1_3" nVehContrib="13" flow="156.00" occupancy="87.89" speed="4.06" harmonicMeanSpeed="0.31" length="5.00" nVehEntered="14"/>
+    <interval begin="300.00" end="600.00" id="r1_3" nVehContrib="1" flow="12.00" occupancy="99.29" speed="0.02" harmonicMeanSpeed="0.02" length="5.00" nVehEntered="1"/>
+    <interval begin="600.00" end="790.00" id="r1_3" nVehContrib="24" flow="454.74" occupancy="76.15" speed="6.97" harmonicMeanSpeed="0.54" length="5.00" nVehEntered="24"/>
 </detector>
