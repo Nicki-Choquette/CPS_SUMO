@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-15 17:31:32 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-04-20 00:35:15 by Eclipse SUMO netedit Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="C:\Users\nicki\source\repos\CPS_SUMO\Actuated\5-way.sumocfg"/>
-        <route-files value="C:\Users\nicki\source\repos\CPS_SUMO\Actuated\5-way.rou.xml"/>
-        <sumo-net-file value="C:\Users\nicki\source\repos\CPS_SUMO\Actuated\5-way.net.xml"/>
+        <sumocfg-file value="S:\Documents\GitHub\CPS_SUMO\Actuated\5-way\5-way.sumocfg"/>
+        <additional-files value="S:\Documents\GitHub\CPS_SUMO\Actuated\5-way\crossroads.add.xml"/>
+        <route-files value="S:\Documents\GitHub\CPS_SUMO\Actuated\5-way\5-way.rou.xml"/>
+        <sumo-net-file value="S:\Documents\GitHub\CPS_SUMO\Actuated\5-way\5-way.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\nicki\source\repos\CPS_SUMO\Actuated\5-way.net.xml"/>
+        <output-file value="S:\Documents\GitHub\CPS_SUMO\Actuated\5-way\5-way.net.xml"/>
     </output>
 
     <processing>
@@ -241,17 +242,22 @@
     </edge>
 
     <tlLogic id="J4" type="actuated" programID="0" offset="0">
-        <phase duration="18" state="rrrrGGGgrrrrgGggrrrrrrGrr"/>
-        <phase duration="5"  state="rrrrGGGgrrrrgGggrrrrrrrrr"/>
-        <phase duration="3"  state="rrrryyyyrrrryyyyrrrrrrrrr"/>
-        <phase duration="19" state="rrrrrrrrGGGgrrrrgGggrrrGr"/>
-        <phase duration="5"  state="rrrrrrrrGGGgrrrrgGggrrrrr"/>
-        <phase duration="3"  state="rrrrrrrryyyyrrrryyyyrrrrr"/>
-        <phase duration="19" state="gGGgrrrrrrrrrrrrrrrrrGrrG"/>
-        <phase duration="5"  state="gGGgrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrrrGGGGG"/>
-        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="18" state="rrrrGGGgrrrrgGggrrrrrrGrr" maxDur="20"/>
+        <phase duration="5"  state="rrrrGGGgrrrrgGggrrrrrrrrr" maxDur="20"/>
+        <phase duration="3"  state="rrrryyyyrrrryyyyrrrrrrrrr" maxDur="20"/>
+        <phase duration="19" state="rrrrrrrrGGGgrrrrgGggrrrGr" maxDur="20"/>
+        <phase duration="5"  state="rrrrrrrrGGGgrrrrgGggrrrrr" maxDur="20"/>
+        <phase duration="3"  state="rrrrrrrryyyyrrrryyyyrrrrr" maxDur="20"/>
+        <phase duration="19" state="gGGgrrrrrrrrrrrrrrrrrGrrG" maxDur="20"/>
+        <phase duration="5"  state="gGGgrrrrrrrrrrrrrrrrrrrrr" maxDur="20"/>
+        <phase duration="3"  state="yyyyrrrrrrrrrrrrrrrrrrrrr" maxDur="20"/>
+        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrrrGGGGG" maxDur="20"/>
+        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrrrrrrrr" maxDur="20"/>
+        <param key="-E2_1" value="e1_3"/>
+        <param key="-E4_1" value="e1_4"/>
+        <param key="E1_1" value="e1_0"/>
+        <param key="E3_1" value="e1_2"/>
+        <param key="E5_1" value="e1_5"/>
     </tlLogic>
 
     <junction id="J3" type="dead_end" x="-75.00" y="75.00" incLanes="-E1_0 -E1_1" intLanes="" shape="-75.00,75.00 -71.32,78.68 -75.00,75.00"/>

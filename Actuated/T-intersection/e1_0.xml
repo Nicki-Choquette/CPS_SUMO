@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-20 00:36:36 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="S:\Documents\GitHub\CPS_SUMO\Actuated\T-intersection\T-intersection.net.xml"/>
+        <route-files value="S:\Documents\GitHub\CPS_SUMO\Actuated\T-intersection\T-intersection.rou.xml"/>
+        <additional-files value="S:\Documents\GitHub\CPS_SUMO\Actuated\T-intersection\crossroads.add.xml"/>
+    </input>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="e1_0" nVehContrib="49" flow="588.00" occupancy="59.53" speed="6.06" harmonicMeanSpeed="1.37" length="5.00" nVehEntered="49"/>
+    <interval begin="300.00" end="600.00" id="e1_0" nVehContrib="0" flow="0.00" occupancy="85.83" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="1"/>
+    <interval begin="600.00" end="900.00" id="e1_0" nVehContrib="10" flow="120.00" occupancy="75.14" speed="2.69" harmonicMeanSpeed="0.12" length="5.00" nVehEntered="10"/>
+    <interval begin="900.00" end="1200.00" id="e1_0" nVehContrib="8" flow="96.00" occupancy="80.88" speed="1.36" harmonicMeanSpeed="0.13" length="5.00" nVehEntered="8"/>
+    <interval begin="1200.00" end="1303.00" id="e1_0" nVehContrib="2" flow="69.90" occupancy="73.48" speed="1.99" harmonicMeanSpeed="0.13" length="5.00" nVehEntered="1"/>
+</detector>
