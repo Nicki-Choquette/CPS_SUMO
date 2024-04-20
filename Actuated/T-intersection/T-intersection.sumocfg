@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-20 00:53:56 by Eclipse SUMO sumo Version 1.19.0
+<!-- generated on 2024-04-20 01:30:43 by Eclipse SUMO sumo Version 1.19.0
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -8,7 +8,7 @@
     <input>
         <net-file value="T-intersection.net.xml"/>
         <route-files value="T-intersection.rou.xml"/>
-        <additional-files value="crossroads.add.xml"/>
+        <additional-files value="../5-way/5-way.add.xml"/>
     </input>
 
 </configuration>
