@@ -10,4 +10,14 @@
         <route-files value="crossroads_demands.rou.xml"/>
     </input>
 
+    <output>
+        <statistic-output value="crossroads-output.xml"/>
+        <tripinfo-output value="crossroads-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
+
 </configuration>
