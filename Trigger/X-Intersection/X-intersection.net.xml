@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-20 01:24:49 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-04-21 03:06:54 by Eclipse SUMO netedit Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="S:\Documents\GitHub\CPS_SUMO\Actuated\X-Intersection\X-intersection.sumocfg"/>
-        <additional-files value="S:\Documents\GitHub\CPS_SUMO\Actuated\X-Intersection\../T-intersection/crossroads.add.xml"/>
-        <route-files value="S:\Documents\GitHub\CPS_SUMO\Actuated\X-Intersection\X-intersection_demands.rou.xml"/>
-        <sumo-net-file value="S:\Documents\GitHub\CPS_SUMO\Actuated\X-Intersection\X-intersection.net.xml"/>
+        <sumocfg-file value="S:\Documents\GitHub\CPS_SUMO\Trigger\X-Intersection\X-intersection.sumocfg"/>
+        <additional-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\X-Intersection\X-intersection.add.xml"/>
+        <route-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\X-Intersection\X-intersection_demands.rou.xml"/>
+        <sumo-net-file value="S:\Documents\GitHub\CPS_SUMO\Trigger\X-Intersection\X-intersection.net.xml"/>
     </input>
 
     <output>
-        <output-file value="S:\Documents\GitHub\CPS_SUMO\Actuated\X-Intersection\X-intersection.net.xml"/>
+        <output-file value="S:\Documents\GitHub\CPS_SUMO\Trigger\X-Intersection\X-intersection.net.xml"/>
     </output>
 
     <processing>
@@ -171,16 +171,16 @@
     </edge>
 
     <tlLogic id="J1" type="actuated" programID="0" offset="0">
-        <phase duration="37" state="gGgrrrgGgrrrrGrG" minDur="5" maxDur="50"/>
-        <phase duration="5"  state="gGgrrrgGgrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="37" state="gGgrrrgGgrrrrGrG"/>
+        <phase duration="5"  state="gGgrrrgGgrrrrrrr"/>
         <phase duration="3"  state="yyyrrryyyrrrrrrr"/>
-        <phase duration="37" state="rrrgGgrrrgGgGrGr" minDur="5" maxDur="50"/>
-        <phase duration="5"  state="rrrgGgrrrgGgrrrr" minDur="5" maxDur="50"/>
+        <phase duration="37" state="rrrgGgrrrgGgGrGr"/>
+        <phase duration="5"  state="rrrgGgrrrgGgrrrr"/>
         <phase duration="3"  state="rrryyyrrryyyrrrr"/>
-        <param key="-E1_1" value="d1_2"/>
-        <param key="-E3_1" value="d1_5"/>
-        <param key="E0_1" value="d1_0"/>
-        <param key="E2_1" value="d1_1"/>
+        <param key="-E1_1" value="e1_2"/>
+        <param key="-E3_1" value="e1_1"/>
+        <param key="E0_1" value="e1_0"/>
+        <param key="E2_1" value="e1_3"/>
     </tlLogic>
 
     <junction id="J0" type="dead_end" x="-100.00" y="50.00" incLanes="-E0_0 -E0_1" intLanes="" shape="-100.00,50.00 -97.67,54.65 -100.00,50.00"/>
