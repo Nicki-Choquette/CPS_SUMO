@@ -9,5 +9,14 @@
         <net-file value="X-intersection-vehicles.net.xml"/>
         <route-files value="X-intersection_demands.rou.xml"/>
     </input>
+    <output>
+        <statistic-output value="X-intersection-vehicles-output.xml"/>
+        <tripinfo-output value="X-intersection-vehicles-output.xml"/>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
+
 
 </configuration>

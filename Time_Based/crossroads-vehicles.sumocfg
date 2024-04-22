@@ -9,5 +9,14 @@
         <net-file value="crossroads-vehicles.net.xml"/>
         <route-files value="crossroads_demands.rou.xml"/>
     </input>
+    <output>
+        <statistic-output value="crossroads-vehicles-output.xml"/>
+        <tripinfo-output value="crossroads-vehicles-output.xml"/>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
+
 
 </configuration>

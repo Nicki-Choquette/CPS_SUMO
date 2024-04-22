@@ -9,5 +9,14 @@
         <net-file value="5-way-vehicles.net.xml"/>
         <route-files value="5-way.rou.xml"/>
     </input>
+    <output>
+        <statistic-output value="5-way-vehicles-output.xml"/>
+        <tripinfo-output value="5-way-vehicles-output.xml"/>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
+
 
 </configuration>

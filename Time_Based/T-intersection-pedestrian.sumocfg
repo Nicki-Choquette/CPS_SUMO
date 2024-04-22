@@ -9,5 +9,14 @@
         <net-file value="T-intersection-pedestrian.net.xml"/>
         <route-files value="T-intersection.rou.xml"/>
     </input>
+    <output>
+        <statistic-output value="T-intersection-pedestrian-output.xml"/>
+        <tripinfo-output value="T-intersection-pedestrian-output.xml"/>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
+
 
 </configuration>
