@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-21 03:06:28 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-04-23 18:49:51 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- Detectors -->
-    <inductionLoop id="w1_0" lane="E3_1" pos="82.79" period="300.00" file="w1_0.xml"/>
-    <inductionLoop id="w1_1" lane="E5_1" pos="90.29" period="300.00" file="w1_1.xml"/>
-    <inductionLoop id="w1_2" lane="-E4_1" pos="82.64" period="300.00" file="e1_2.xml"/>
-    <inductionLoop id="w1_3" lane="-E2_1" pos="88.70" period="300.00" file="w1_3.xml"/>
-    <inductionLoop id="w1_4" lane="E1_1" pos="88.89" period="300.00" file="w1_4.xml"/>
+    <inductionLoop id="e1_0" lane="E3_1" pos="32.99" period="300.00" file="e1_0.xml"/>
+    <inductionLoop id="e1_1" lane="E5_1" pos="40.31" period="300.00" file="e1_1.xml"/>
+    <inductionLoop id="e1_2" lane="-E4_1" pos="32.90" period="300.00" file="e1_2.xml"/>
+    <inductionLoop id="e1_3" lane="-E2_1" pos="32.33" period="300.00" file="e1_3.xml"/>
+    <inductionLoop id="e1_4" lane="E1_1" pos="32.36" period="300.00" file="e1_4.xml"/>
 </additional>

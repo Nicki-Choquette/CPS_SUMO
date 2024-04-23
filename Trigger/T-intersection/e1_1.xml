@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-23 18:55:41 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\T-intersection.net.xml"/>
+        <route-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\T-intersection.rou.xml"/>
+        <additional-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\T-intersection.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\T-output.xml"/>
+        <statistic-output value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\T-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>

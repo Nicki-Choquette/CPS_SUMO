@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-21 03:06:54 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Routes -->
+    <route id="r_0" edges="E0 E3"/>
+    <route id="r_1" edges="E0 E1"/>
+    <route id="r_10" edges="-E3 E1"/>
+    <route id="r_11" edges="-E3 -E0"/>
+    <route id="r_2" edges="E0 -E2"/>
+    <route id="r_3" edges="-E1 -E2"/>
+    <route id="r_4" edges="-E1 -E0"/>
+    <route id="r_5" edges="-E1 E3"/>
+    <route id="r_6" edges="E2 E3"/>
+    <route id="r_7" edges="E2 -E0"/>
+    <route id="r_8" edges="E2 E1"/>
+    <route id="r_9" edges="-E3 -E2"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <personFlow id="pf_0" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_0"/>
+    </personFlow>
+    <personFlow id="pf_1" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_1"/>
+    </personFlow>
+    <personFlow id="pf_10" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_8"/>
+    </personFlow>
+    <personFlow id="pf_11" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_7"/>
+    </personFlow>
+    <personFlow id="pf_2" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_2"/>
+    </personFlow>
+    <personFlow id="pf_3" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_3"/>
+    </personFlow>
+    <personFlow id="pf_4" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_4"/>
+    </personFlow>
+    <personFlow id="pf_5" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_5"/>
+    </personFlow>
+    <personFlow id="pf_6" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_9"/>
+    </personFlow>
+    <personFlow id="pf_7" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_10"/>
+    </personFlow>
+    <personFlow id="pf_8" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_11"/>
+    </personFlow>
+    <personFlow id="pf_9" begin="0.00" end="3600.00" personsPerHour="1800">
+        <walk route="r_6"/>
+    </personFlow>
+    <flow id="f_0" begin="0.00" route="r_2" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_1" begin="0.00" route="r_1" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_10" begin="0.00" route="r_10" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_11" begin="0.00" route="r_11" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_2" begin="0.00" route="r_0" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_3" begin="0.00" route="r_4" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_4" begin="0.00" route="r_3" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_5" begin="0.00" route="r_5" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_6" begin="0.00" route="r_7" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_7" begin="0.00" route="r_8" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_8" begin="0.00" route="r_6" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_9" begin="0.00" route="r_9" end="3600.00" vehsPerHour="1800"/>
+</routes>

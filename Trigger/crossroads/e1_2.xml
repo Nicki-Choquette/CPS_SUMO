@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-20 13:56:29 by Eclipse SUMO GUI Version 1.19.0
+<!-- generated on 2024-04-23 18:55:35 by Eclipse SUMO GUI Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -9,12 +9,18 @@
         <additional-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\crossroads\crossroads.add.xml"/>
     </input>
 
+    <output>
+        <tripinfo-output value="S:\Documents\GitHub\CPS_SUMO\Trigger\crossroads\crossroads-output.xml"/>
+        <statistic-output value="S:\Documents\GitHub\CPS_SUMO\Trigger\crossroads\crossroads-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
+
 </configuration>
 -->
 
 <detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
-    <interval begin="0.00" end="300.00" id="e1_2" nVehContrib="24" flow="288.00" occupancy="49.88" speed="3.98" harmonicMeanSpeed="0.81" length="5.00" nVehEntered="25"/>
-    <interval begin="300.00" end="600.00" id="e1_2" nVehContrib="23" flow="276.00" occupancy="60.31" speed="4.24" harmonicMeanSpeed="0.63" length="5.00" nVehEntered="23"/>
-    <interval begin="600.00" end="900.00" id="e1_2" nVehContrib="25" flow="300.00" occupancy="61.05" speed="4.19" harmonicMeanSpeed="0.78" length="5.00" nVehEntered="25"/>
-    <interval begin="900.00" end="1091.00" id="e1_2" nVehContrib="12" flow="226.18" occupancy="61.85" speed="3.70" harmonicMeanSpeed="0.42" length="5.00" nVehEntered="12"/>
 </detector>

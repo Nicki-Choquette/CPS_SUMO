@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-21 03:06:54 by Eclipse SUMO sumo Version 1.19.0
+<!-- generated on 2024-04-23 19:06:05 by Eclipse SUMO sumo Version 1.19.0
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -10,5 +10,15 @@
         <route-files value="X-intersection_demands.rou.xml"/>
         <additional-files value="X-intersection.add.xml"/>
     </input>
+
+    <output>
+        <tripinfo-output value="X-output.xml"/>
+        <statistic-output value="X-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
 
 </configuration>
