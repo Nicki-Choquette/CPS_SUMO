@@ -10,4 +10,14 @@
         <route-files value="Y-intersection.rou.xml"/>
     </input>
 
+    <output>
+        <statistic-output value="Y-output.xml"/>
+        <tripinfo-output value="Y-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3000"/>
+    </time>
+
 </configuration>
