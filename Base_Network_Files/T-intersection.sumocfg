@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-09 08:37:30 by Eclipse SUMO sumo Version 1.19.0
+<!-- generated on 2024-04-23 21:13:23 by Eclipse SUMO sumo Version 1.19.0
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -11,13 +11,17 @@
     </input>
 
     <output>
-        <statistic-output value="T-output.xml"/>
         <tripinfo-output value="T-output.xml"/>
+        <statistic-output value="T-output.xml"/>
     </output>
 
     <time>
         <begin value="0"/>
         <end value="3000"/>
     </time>
+
+    <processing>
+        <collision.check-junctions value="true"/>
+    </processing>
 
 </configuration>

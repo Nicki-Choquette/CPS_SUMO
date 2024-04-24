@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-23 18:55:35 by Eclipse SUMO GUI Version 1.19.0
+<!-- generated on 2024-04-23 20:42:52 by Eclipse SUMO GUI Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -23,4 +23,14 @@
 -->
 
 <detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="e1_3" nVehContrib="8" flow="96.00" occupancy="49.72" speed="4.64" harmonicMeanSpeed="0.27" length="5.00" nVehEntered="8"/>
+    <interval begin="300.00" end="600.00" id="e1_3" nVehContrib="4" flow="48.00" occupancy="50.89" speed="0.97" harmonicMeanSpeed="0.14" length="5.00" nVehEntered="5"/>
+    <interval begin="600.00" end="900.00" id="e1_3" nVehContrib="2" flow="24.00" occupancy="13.12" speed="2.05" harmonicMeanSpeed="0.22" length="5.00" nVehEntered="1"/>
+    <interval begin="900.00" end="1200.00" id="e1_3" nVehContrib="1" flow="12.00" occupancy="15.74" speed="0.11" harmonicMeanSpeed="0.11" length="5.00" nVehEntered="1"/>
+    <interval begin="1200.00" end="1500.00" id="e1_3" nVehContrib="1" flow="12.00" occupancy="2.99" speed="0.56" harmonicMeanSpeed="0.56" length="5.00" nVehEntered="1"/>
+    <interval begin="1500.00" end="1800.00" id="e1_3" nVehContrib="1" flow="12.00" occupancy="0.66" speed="2.51" harmonicMeanSpeed="2.51" length="5.00" nVehEntered="1"/>
+    <interval begin="1800.00" end="2100.00" id="e1_3" nVehContrib="1" flow="12.00" occupancy="9.60" speed="0.17" harmonicMeanSpeed="0.17" length="5.00" nVehEntered="1"/>
+    <interval begin="2100.00" end="2400.00" id="e1_3" nVehContrib="1" flow="12.00" occupancy="1.64" speed="1.02" harmonicMeanSpeed="1.02" length="5.00" nVehEntered="1"/>
+    <interval begin="2400.00" end="2700.00" id="e1_3" nVehContrib="0" flow="0.00" occupancy="66.20" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="1"/>
+    <interval begin="2700.00" end="2948.00" id="e1_3" nVehContrib="1" flow="14.52" occupancy="41.95" speed="0.02" harmonicMeanSpeed="0.02" length="5.00" nVehEntered="0"/>
 </detector>
