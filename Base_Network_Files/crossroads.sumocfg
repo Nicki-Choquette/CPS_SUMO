@@ -11,7 +11,7 @@
     </input>
 
     <output>
-        <statistic-output value="5-way-output.xml"/>
+        <statistic-output value="crossroads-output.xml"/>
         <!-- <tripinfo-output value="5-way-output.xml"/> -->
     </output>
 
