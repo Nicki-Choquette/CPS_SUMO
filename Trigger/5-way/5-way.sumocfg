@@ -11,7 +11,12 @@
         <additional-files value="5-way.add.xml"/>
     </input>
 
-   <time>
+    <output>
+        <tripinfo-output value="5-way-output.xml"/>
+        <statistic-output value="5-way-output.xml"/>
+    </output>
+
+    <time>
         <begin value="0"/>
         <end value="28800"/>
     </time>
@@ -20,5 +25,9 @@
         <collision.check-junctions value="true"/>
         <pedestrian.striping.jamtime value="5"/>
     </processing>
+    
+    <random_number>
+        <random value="true"/>
+    </random_number>
 
 </configuration>
