@@ -19,5 +19,9 @@
         <begin value="0"/>
         <end value="3000"/>
     </time>
+    
+    <processing>
+        <collision.check-junctions value="true"/>
+    </processing>
 
 </configuration>
