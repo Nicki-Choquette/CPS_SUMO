@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-15 17:23:53 by Eclipse SUMO sumo Version 1.19.0
+<!-- generated on 2024-04-23 21:03:24 by Eclipse SUMO sumo Version 1.19.0
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -12,12 +12,17 @@
 
     <output>
         <statistic-output value="crossroads-output.xml"/>
-        <tripinfo-output value="crossroads-output.xml"/>
+        <!-- <tripinfo-output value="5-way-output.xml"/> -->
     </output>
 
     <time>
         <begin value="0"/>
-        <end value="3000"/>
+        <end value="28800"/>
     </time>
+    
+    <processing>
+        <collision.check-junctions value="true"/>
+        <pedestrian.striping.jamtime value="5"/>
+    </processing>
 
 </configuration>
