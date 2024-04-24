@@ -18,7 +18,12 @@
 
     <time>
         <begin value="0"/>
-        <end value="3000"/>
+        <end value="28800"/>
     </time>
+
+    <processing>
+        <collision.check-junctions value="true"/>
+        <pedestrian.striping.jamtime value="5"/>
+    </processing>
 
 </configuration>
