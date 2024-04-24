@@ -12,40 +12,40 @@
     <route id="r_4" edges="-E1 -E0"/>
     <route id="r_5" edges="-E1 -E2"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <personFlow id="pf_0" begin="0.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_0" begin="0.00" end="28800.00" probability="0.035">
         <walk route="r_1"/>
     </personFlow>
-    <personFlow id="pf_1" begin="0.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_1" begin="0.00" end="28800.00" probability="0.035">
         <walk route="r_3"/>
     </personFlow>
-    <personFlow id="pf_10" begin="0.00" departPos="50.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_10" begin="0.00" departPos="50.00" end="28800.00" probability="0.035">
         <walk edges="-E2 -E1"/>
     </personFlow>
-    <personFlow id="pf_11" begin="0.00" departPos="50.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_11" begin="0.00" departPos="50.00" end="28800.00" probability="0.035">
         <walk edges="-E2 E0"/>
     </personFlow>
-    <personFlow id="pf_2" begin="0.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_2" begin="0.00" end="28800.00" probability="0.035">
         <walk route="r_0"/>
     </personFlow>
-    <personFlow id="pf_3" begin="0.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_3" begin="0.00" end="28800.00" probability="0.035">
         <walk route="r_2"/>
     </personFlow>
-    <personFlow id="pf_4" begin="0.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_4" begin="0.00" end="28800.00" probability="0.035">
         <walk route="r_4"/>
     </personFlow>
-    <personFlow id="pf_5" begin="0.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_5" begin="0.00" end="28800.00" probability="0.035">
         <walk route="r_5"/>
     </personFlow>
-    <personFlow id="pf_6" begin="0.00" departPos="50.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_6" begin="0.00" departPos="50.00" end="28800.00" probability="0.035">
         <walk edges="-E0 -E1"/>
     </personFlow>
-    <personFlow id="pf_7" begin="0.00" departPos="50.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_7" begin="0.00" departPos="50.00" end="28800.00" probability="0.035">
         <walk edges="-E0 E2"/>
     </personFlow>
-    <personFlow id="pf_8" begin="0.00" departPos="50.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_8" begin="0.00" departPos="50.00" end="28800.00" probability="0.035">
         <walk edges="E1 E2"/>
     </personFlow>
-    <personFlow id="pf_9" begin="0.00" departPos="50.00" end="28800.00" probability="0.07">
+    <personFlow id="pf_9" begin="0.00" departPos="50.00" end="28800.00" probability="0.035">
         <walk edges="E1 E0"/>
     </personFlow>
     <flow id="f_0" begin="0.00" route="r_1" end="28800.00" probability="0.03300000000000000155"/>
