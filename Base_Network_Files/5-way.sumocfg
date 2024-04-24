@@ -22,6 +22,7 @@
     
     <processing>
         <collision.check-junctions value="true"/>
+        <pedestrian.striping.jamtime value="5"/>
     </processing>
 
 </configuration>
