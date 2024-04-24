@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-24 16:54:32 by Eclipse SUMO sumo Version 1.19.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Y-intersection.net.xml"/>
+        <route-files value="Y-intersection.rou.xml"/>
+        <additional-files value="Y-intersection.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Y-output.xml"/>
+        <statistic-output value="Y-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="28800"/>
+    </time>
+
+    <processing>
+        <collision.check-junctions value="true"/>
+        <pedestrian.striping.jamtime value="5"/>
+    </processing>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>

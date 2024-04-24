@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-23 21:07:47 by Eclipse SUMO GUI Version 1.19.0
+<!-- generated on 2024-04-24 14:11:23 by Eclipse SUMO GUI Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\T-intersection.net.xml"/>
-        <route-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\T-intersection.rou.xml"/>
-        <additional-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\T-intersection.add.xml"/>
+        <net-file value="S:\Documents\GitHub\CPS_SUMO\Trigger\5-way\ped\5-way.net.xml"/>
+        <route-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\5-way\ped\5-way.rou.xml"/>
+        <additional-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\5-way\ped\5-way.add.xml"/>
     </input>
 
     <output>
-        <tripinfo-output value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\T-output.xml"/>
-        <statistic-output value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\T-output.xml"/>
+        <tripinfo-output value="S:\Documents\GitHub\CPS_SUMO\Trigger\5-way\ped\5-way-output.xml"/>
+        <statistic-output value="S:\Documents\GitHub\CPS_SUMO\Trigger\5-way\ped\5-way-output.xml"/>
     </output>
 
     <time>
         <begin value="0"/>
-        <end value="3000"/>
+        <end value="28800"/>
     </time>
+
+    <processing>
+        <collision.check-junctions value="true"/>
+        <pedestrian.striping.jamtime value="5"/>
+    </processing>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
 
 </configuration>
 -->
 
 <tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
-    <performance clockBegin="2091529.81" clockEnd="2091540.97" clockDuration="11.16" traciDuration="0.00" realTimeFactor="0.00" vehicleUpdatesPerSecond="0.00" personUpdatesPerSecond="0.00" begin="0.00" end="0.00" duration="0.00"/>
+    <performance clockBegin="-2142021.84" clockEnd="-2142018.19" clockDuration="3.65" traciDuration="0.00" realTimeFactor="0.00" vehicleUpdatesPerSecond="0.00" personUpdatesPerSecond="0.00" begin="0.00" end="0.00" duration="0.00"/>
     <vehicles loaded="0" inserted="0" running="0" waiting="0"/>
     <teleports total="0" jam="0" yield="0" wrongLane="0"/>
     <safety collisions="0" emergencyStops="0" emergencyBraking="0"/>
-    <persons loaded="1436" running="0" jammed="0"/>
+    <persons loaded="40010" running="0" jammed="0"/>
     <personTeleports total="0" abortWait="0" wrongDest="0"/>
     <vehicleTripStatistics count="0" routeLength="0.00" speed="0.00" duration="0.00" waitingTime="0.00" timeLoss="0.00" departDelay="0.00" departDelayWaiting="-1.00" totalTravelTime="0.00" totalDepartDelay="0.00"/>
     <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
