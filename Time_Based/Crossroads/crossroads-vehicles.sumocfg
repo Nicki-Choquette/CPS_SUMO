@@ -11,7 +11,7 @@
     </input>
     <output>
         <statistic-output value="crossroads-vehicles-output.xml"/>
-        <!-- <tripinfo-output value="crossroads-vehicles-output.xml"/> -->
+        <tripinfo-output value="crossroads-vehicles-output.xml"/>
         <!-- <collision-output value="crossroads-vehicles-output.xml"/> -->
     </output>
     <time>
@@ -22,6 +22,9 @@
         <collision.check-junctions value="true"/>
         <pedestrian.striping.jamtime value="5"/>
     </processing>
+    <random_number>
+        <random value="true"/>
+    </random_number>
 
 
 </configuration>

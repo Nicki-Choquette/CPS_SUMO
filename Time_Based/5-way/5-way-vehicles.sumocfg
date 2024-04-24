@@ -21,6 +21,9 @@
         <collision.check-junctions value="true"/>
         <pedestrian.striping.jamtime value="5"/>
     </processing>
+    <random_number>
+        <random value="true"/>
+    </random_number>
 
 
 </configuration>

@@ -11,7 +11,7 @@
     </input>
     <output>
         <statistic-output value="Y-intersection-pedestrian-output.xml"/>
-        <!-- <tripinfo-output value="Y-intersection-pedestrian-output.xml"/> -->
+        <tripinfo-output value="Y-intersection-pedestrian-output.xml"/> 
     </output>
     <time>
         <begin value="0"/>
@@ -21,6 +21,9 @@
         <collision.check-junctions value="true"/>
         <pedestrian.striping.jamtime value="5"/>
     </processing>
+    <random_number>
+        <random value="true"/>
+    </random_number>
 
 
 </configuration>
