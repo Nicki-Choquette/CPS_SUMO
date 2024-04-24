@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-24 18:21:54 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\ped\T-intersection.net.xml"/>
+        <route-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\ped\T-intersection.rou.xml"/>
+        <additional-files value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\ped\T-intersection.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\ped\T-output.xml"/>
+        <statistic-output value="S:\Documents\GitHub\CPS_SUMO\Trigger\T-intersection\ped\T-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="28800"/>
+    </time>
+
+    <processing>
+        <collision.check-junctions value="true"/>
+        <pedestrian.striping.jamtime value="5"/>
+    </processing>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>
