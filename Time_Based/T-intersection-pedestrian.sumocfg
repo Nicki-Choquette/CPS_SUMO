@@ -11,7 +11,7 @@
     </input>
     <output>
         <statistic-output value="T-intersection-pedestrian-output.xml"/>
-        <tripinfo-output value="T-intersection-pedestrian-output.xml"/>
+        <!-- <tripinfo-output value="T-intersection-pedestrian-output.xml"/> -->
     </output>
     <time>
         <begin value="0"/>

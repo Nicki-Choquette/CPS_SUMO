@@ -11,7 +11,7 @@
     </input>
     <output>
         <statistic-output value="Y-intersection-vehicles-output.xml"/>
-        <tripinfo-output value="Y-intersection-vehicles-output.xml"/>
+        <!-- <tripinfo-output value="Y-intersection-vehicles-output.xml"/> -->
     </output>
     <time>
         <begin value="0"/>

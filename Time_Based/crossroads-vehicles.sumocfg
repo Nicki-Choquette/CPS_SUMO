@@ -11,7 +11,8 @@
     </input>
     <output>
         <statistic-output value="crossroads-vehicles-output.xml"/>
-        <tripinfo-output value="crossroads-vehicles-output.xml"/>
+        <!-- <tripinfo-output value="crossroads-vehicles-output.xml"/> -->
+        <!-- <collision-output value="crossroads-vehicles-output.xml"/> -->
     </output>
     <time>
         <begin value="0"/>

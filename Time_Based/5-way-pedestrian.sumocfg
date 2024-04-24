@@ -11,7 +11,7 @@
     </input>
     <output>
         <statistic-output value="5-way-pedestrian-output.xml"/>
-        <tripinfo-output value="5-way-pedestrian-output.xml"/>
+        <!-- <tripinfo-output value="5-way-pedestrian-output.xml"/> -->
     </output>
     <time>
         <begin value="0"/>
