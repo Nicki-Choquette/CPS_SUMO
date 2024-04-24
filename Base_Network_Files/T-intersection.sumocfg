@@ -11,8 +11,8 @@
     </input>
 
     <output>
-        <tripinfo-output value="T-output.xml"/>
         <statistic-output value="T-output.xml"/>
+        <!-- <tripinfo-output value="T-output.xml"/> -->
     </output>
 
     <time>

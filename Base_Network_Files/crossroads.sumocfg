@@ -12,7 +12,7 @@
 
     <output>
         <statistic-output value="5-way-output.xml"/>
-        <tripinfo-output value="5-way-output.xml"/>
+        <!-- <tripinfo-output value="5-way-output.xml"/> -->
     </output>
 
     <time>
